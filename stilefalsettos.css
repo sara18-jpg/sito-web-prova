@@ -1,0 +1,71 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font: Courier New;
+}
+header {
+  position:sticky;
+  background-color: #cc0000;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Abril Fatface';
+  font-size: 44px;
+  width:100%;
+}
+#header a:link,
+#header a:visited,
+#header a:active
+#header a:hover {
+  text-decoration: none;
+  color: white;
+}
+#mappa{
+  margin:10px;
+  float:right;
+}
+#video{
+  float:right;
+  width:50%;
+  padding:10px;
+
+}
+#intro{
+  color:white;
+  float:left;
+  padding:20px;
+  width:50%;
+  margin:2px;
+  background-color:#e62e00;
+  border: 2px #e62e00;
+  border-radius: 8px;
+
+}
+#trama{
+  color:white;
+  float:left;
+  padding:20px;
+  width:50%;
+  margin:2px;
+  background-color:#e62e00;
+  border: 2px #e62e00;
+  border-radius: 8px;  
+}
+#locandina img {
+   float:right;
+   width:50%;
+}
+
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ddd;
+   color: darkgrey;
+   text-align: center;
+}
+
+
